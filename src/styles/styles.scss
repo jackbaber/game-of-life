@@ -1,0 +1,53 @@
+@import './base/settings';
+@import './base/base';
+
+
+.cell {
+    display: inline-block;       
+    border: 1px solid #363636;
+    width: 15px;
+    height: 15px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+
+#cell:hover{
+    cursor: pointer;
+        background-color: #c485c4 
+}
+
+.grid {
+    width: 600px;
+    height: 400px;
+    line-height: 0;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0px 13px 114px 33px rgba(128,0,128,0.65);;
+}
+// .static {
+//     background-color: lightgrey;
+// }
+
+// .isolated {
+//     background-color: pink;
+// }
+
+// .outcompeted {
+//     background-color: lightpink;
+// }
+
+.newborn {
+    background-color: #be65be;
+}
+
+
+
+.live {
+    background-color: #750791;
+}
+
+.dead {
+    background-color: black;
+  
+    
+}
